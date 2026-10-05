@@ -1,10 +1,10 @@
-# {{rPackage.name}}
+# sarahh-dissertation-rpkg
 
-> R package supporting {{user.name}}'s dissertation, "{{thesis.workingTitle}}", provisioned via [dissertation.ai](https://dissertation-ai.dataimago.ai).
+> R package supporting Sarah Hammami's dissertation, "The Impact of Graph Digitization Error on Effect Size Estimation and Meta-Analytic Conclusions in Single-Case Experimental Design Research", provisioned via [dissertation.ai](https://dissertation-ai.dataimago.ai).
 
-**📖 Website:** [{{user.githubUsername}}.github.io/{{rPackage.name}}](https://{{user.githubUsername}}.github.io/{{rPackage.name}}/) — the thesis as an HTML book, the latest thesis PDF, and the R package reference rendered from the roxygen docs. Published by `quarto-publish.yml` on every push (a maintainer or the provisioning flow must enable GitHub Pages, build type "GitHub Actions", once).
+**📖 Website:** [sarahhammamidr.github.io/sarahh-dissertation-rpkg](https://sarahhammamidr.github.io/sarahh-dissertation-rpkg/) — the thesis as an HTML book, the latest thesis PDF, and the R package reference rendered from the roxygen docs. Published by `quarto-publish.yml` on every push (a maintainer or the provisioning flow must enable GitHub Pages, build type "GitHub Actions", once).
 
-This package is the **R-package half** of a two-repo dissertation environment. The NextJS app half lives at [`github.com/{{user.githubUsername}}/{{metadata.name}}`](https://github.com/{{user.githubUsername}}/{{metadata.name}}) and includes this package as a Git submodule at `packages/r-packages/{{rPackage.name}}/`.
+This package is the **R-package half** of a two-repo dissertation environment. The NextJS app half lives at [`github.com/sarahhammamidr/sarahhammamidr-dissertation`](https://github.com/sarahhammamidr/sarahhammamidr-dissertation) and includes this package as a Git submodule at `packages/r-packages/sarahh-dissertation-rpkg/`.
 
 ## What's in this repo
 
@@ -24,8 +24,8 @@ This package is the **R-package half** of a two-repo dissertation environment. T
 ## Quick start
 
 ```sh
-git clone https://github.com/{{user.githubUsername}}/{{rPackage.name}}.git
-cd {{rPackage.name}}
+git clone https://github.com/sarahhammamidr/sarahh-dissertation-rpkg.git
+cd sarahh-dissertation-rpkg
 
 # Edit chapter content in ui/www/chapters/*.qmd
 # (or open this repo in your AI-enabled editor)
@@ -48,7 +48,7 @@ cd ui/www && quarto preview
 
 ## The two-repo relationship
 
-This R package + the dissertation app at `github.com/{{user.githubUsername}}/{{metadata.name}}` are designed to be edited together. Most users clone the app repo with `--recursive` to get both at once. Changes to thesis content + R code go in this repo; changes to the spec + landing page + app-level configuration go in the app repo.
+This R package + the dissertation app at `github.com/sarahhammamidr/sarahhammamidr-dissertation` are designed to be edited together. Most users clone the app repo with `--recursive` to get both at once. Changes to thesis content + R code go in this repo; changes to the spec + landing page + app-level configuration go in the app repo.
 
 ## Framework links
 

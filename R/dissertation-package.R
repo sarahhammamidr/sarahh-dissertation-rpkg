@@ -1,4 +1,4 @@
-#' {{rPackage.name}}
+#' sarahh-dissertation-rpkg
 #'
 #' R package supporting a dissertation provisioned via dissertation.ai.
 #' Currently contains scaffolding only. Add your methodological R functions

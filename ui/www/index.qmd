@@ -1,12 +1,12 @@
 ---
-title: "{{thesis.workingTitle}}"
-author: "{{user.name}}"
+title: "The Impact of Graph Digitization Error on Effect Size Estimation and Meta-Analytic Conclusions in Single-Case Experimental Design Research"
+author: "Sarah Hammami"
 ---
 
 # About this thesis
 
-This is the landing page for {{user.name}}'s dissertation, "{{thesis.workingTitle}}",
-at {{institution.name}} ({{institution.degreeProgram}}).
+This is the landing page for Sarah Hammami's dissertation, "The Impact of Graph Digitization Error on Effect Size Estimation and Meta-Analytic Conclusions in Single-Case Experimental Design Research",
+at University of Nebraska–Lincoln (Ph.D. in Quantitative, Qualitative, and Psychometric Methods (QQPM)).
 
 The thesis is rendered via Quarto + XeLaTeX to a PDF whenever you push changes
 to `ui/www/` or `R/`; a stable copy is committed to `docs/thesis.pdf` by the

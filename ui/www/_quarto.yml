@@ -3,9 +3,9 @@ project:
   output-dir: ../../docs
 
 book:
-  title: "{{thesis.workingTitle}}"
-  subtitle: "{{thesis.workingSubtitle}}"
-  author: "{{user.name}}"
+  title: "The Impact of Graph Digitization Error on Effect Size Estimation and Meta-Analytic Conclusions in Single-Case Experimental Design Research"
+  subtitle: ""
+  author: "Sarah Hammami"
   date: today
   # Pin the single-file PDF name so build-thesis.yml finds `docs/thesis.pdf`
   # (a book PDF is otherwise named from the title → the upload/commit missed it).

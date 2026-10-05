@@ -1,4 +1,4 @@
 library(testthat)
-library({{rPackage.name}})
+library(sarahh-dissertation-rpkg)
 
-test_check("{{rPackage.name}}")
+test_check("sarahh-dissertation-rpkg")
